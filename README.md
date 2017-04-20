@@ -7,7 +7,7 @@
 * [ ] Install the `Bootstrap gem` and follow the steps to get it functioning properly.
   - [Bootstrap 4 Documentation](https://v4-alpha.getbootstrap.com/)
 * [ ] Add a link to your `application.html` file to render your css styles on the page.
-* [ ] Create a `h1` tag in one of your view files. In the css file, style the `h1` tags to have a font-color of red.
+* [ ] Create a `h1` tag in your `application.html` file. In the css file, style the `h1` tags to have a font-color of red.
 * [ ] Create a `div` tag with an `ul` of three items.
 * [ ] For the same `div`,create a class called `list`. Integrate two styles, of your choice, for that class. 
 
