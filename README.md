@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* [ ] Create a new Rails app
-* [ ] Create a resource generator called `Projects` with three attributes of your choice.
+* [x] Create a resource generator called `Projects` with three attributes of: `title`, `content`, and `tags`
+* [x] Add a controller action in the `ProjectsController` and use it as the root path for the application, you can name the action anything you'd like
 * [ ] Install the `Bootstrap gem` and follow the steps to get it functioning properly.
   - [Bootstrap 4 Documentation](https://v4-alpha.getbootstrap.com/)
 * [ ] Add a link to your `application.html` file to render your css styles on the page.
