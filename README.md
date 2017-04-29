@@ -1,4 +1,4 @@
-# Week One Rails Application
+# Week Two Rails Application
 
 ## Requirements
 
