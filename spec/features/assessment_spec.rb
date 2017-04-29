@@ -10,9 +10,28 @@ describe 'Week Three' do
     visit root_path
     expect(page.status_code).to eq(200)
   end
+  
+  it 'has a homepage with an h1 heading and specific text' do
+    visit root_path
+    expect(page).to have_selector('h1', text: 'Week Three Assignment')
+  end
+
+  it 'has bootstrap installed properly' do
+    expect{ Bootstrap }.to_not raise_error
+  end
+
+  it 'has an h1 with a class of custom-heading' do
+    visit root_path
+    expect(page).to have_css('.custom-heading')
+  end
+
+  it 'has a div with an unordered list inside of it with three list items' do
+    visit root_path
+    expect(page).to have_css('li', count: 3)
+  end
+
+  it 'has a div with the class of list' do
+    visit root_path
+    expect(page).to have_css('.list')
+  end
 end
-# Install the `Bootstrap gem` and follow the steps to get it functioning properly.
-# Add a link to your `application.html` file to render your css styles on the page.
-# Create a `h1` tag. In the css file, style the `h1` tag to have a font-color of red.
-# Create a `div` tag with an `ul` of three items.
-# For the same `div`,create a class called `list`. Integrate two styles, of your choice, for that class. 
