@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* [ ] Create a resource generator called `Projects` with three attributes of: `title`, `content`, and `tags`
-* [ ] Add a controller action in the `ProjectsController` and use it as the root path for the application, you can name the action anything you'd like
+* [ ] Create a resource generator called `Post` with three attributes of: `title`, `content`, and `tags`
+* [ ] Add a controller action in the `PostsController` and use it as the root path for the application, you can name the action anything you'd like
 * [ ] In the homepage template, place an h1 heading with the exact text: `Week Three Assignment`
 * [ ] Install the `Bootstrap gem` and follow the steps to get it functioning properly.
   - [Bootstrap 4 Documentation](https://v4-alpha.getbootstrap.com/)
