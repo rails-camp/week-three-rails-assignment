@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.custom-heading {
+  color: red;
+}
+
+.list {
+  color: blue;
+  font-family: verdana;
+}
